@@ -12,6 +12,6 @@ public class UserProfileDTO
     [Required]
     public string Email { get; set; }
 
-    public List<Reservation> Reservations { get; set; }
+    public List<ReservationDTO> Reservations { get; set; }
 
 }
